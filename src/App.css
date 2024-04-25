@@ -1,0 +1,296 @@
+@font-face {
+  font-family: 'Bakso Sapi';
+  src: local('Bakso Sapi'), url(./fonts/BaksoSapi.otf) format('opentype');
+}
+
+.App {
+max-width: 1500px;
+overflow: hidden;
+background-color: #071247;
+}
+
+.App-logo {
+  height: 10vh;
+ padding-top: 10px;
+ padding-left: 10px;
+  justify-content: left;
+  align-content: left;
+  padding-right: auto;
+
+}
+
+.Ft-logo {
+  height: 6vh;
+ padding-bottom: 5px;
+ padding-left: 30px;
+  justify-content: left;
+  align-content: left;
+  padding-right: auto;
+
+}
+
+.input{
+font-family: "Bakso Sapi";
+font-size: 20px;
+color: black;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.App-header{
+background-color: #071247;
+ height: 150px;
+ max-width: auto;
+}
+
+.App-background{
+  background-image: url(./KittyCloudBGmin.png);
+  background-repeat: no-repeat;
+  min-height: 1100px;
+  width: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.NavBar {
+  font-size: calc(20px);
+  font-family: "Bakso Sapi";
+  color: white;
+  max-width: auto;
+}
+
+
+.Footer {
+  height: 75px;
+  font-size: calc(15px);
+  font-family: "Bakso Sapi";
+  color: white;
+  max-width: auto;
+}
+
+.head-contain{
+  padding-top: 10px;
+  display: flex;
+  float: right;
+}
+
+.foot-contain{
+display: flex;
+float: right;
+}
+
+.links{
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.icons{
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.cbutton{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.listed-group{
+  border: none;
+
+}
+
+.toggle{
+  padding-top: 35px;
+  padding-right: 10px;
+  background-color: #071247;
+}
+
+.dd-menu {
+  width: fit-content;
+  justify-self: flex-end;
+  margin-right: 2px;
+  font-size: 20px;
+  color: #071247;
+  background-color: white;
+  padding-top: 15px;
+  border-radius: 30px;
+}
+
+.dropdown-toggle::after{
+  border-color: #071247;
+  border-width: 0px;
+  
+}
+.dropdown-toggle::before{
+  border-color: #071247;
+  border-width: 0px; 
+}
+
+.btn-primary{
+  --bs-btn-bg:#071247;
+  --bs-btn-border-color:var(--bs-btn-bg);
+  --bs-btn-hover-bg:var(--bs-btn-bg);
+  --bs-btn-hover-border-color:var(--bs-btn-bg);
+  --bs-btn-active-bg:var(--bs-btn-bg);
+  --bs-btn-active-border-color:var(--bs-btn-bg);
+}
+
+.social-menu {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 60px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 0px 1px 10px;
+  background-color: #071247;
+  overflow: hidden;
+  position: relative;
+  align-content: center;
+  flex-wrap: nowrap;
+  border-radius: 50px;
+}
+
+.email-button {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px 5px 10px;
+  background-color: #071247;
+  overflow: hidden;
+  position: relative;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 0;
+  border-radius: 50px;
+}
+
+.MainMint{
+  padding-bottom: 75px;
+}
+
+.button{
+  padding-top: 20px;
+  padding-left: 250px;
+}
+
+.Minbutton{
+  padding-left: 238px;
+}
+
+
+.Zom{
+  font-family: "Bakso Sapi";
+  font-size: 20px;
+  color: white;
+  padding-left: 20px;
+}
+
+.buttonimg{
+  font-family: "Bakso Sapi";
+  height: 20px;
+  width: 20px;
+}
+
+.container{
+  width:fit-content;
+  padding-bottom: 50px;
+}
+
+h1{
+  font-family: "Bakso Sapi";
+  color: white;
+  font-size: 70px;
+  padding-left: 20px;
+  padding-top: 75px;
+  
+}
+
+h3{
+  font-family: "Bakso Sapi";
+  color: white;
+
+}
+
+h5{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.faqs {
+  font-family: "Bakso Sapi";
+  color: black;
+  width: 800px;
+  padding: 15px;
+  
+}
+
+.faqs .faq {
+  margin: 15px;
+  padding: 15px;
+  background: #fff;
+  background-position: center;
+  border-radius: 25px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.faqs .faq .faq-question {
+  position: relative;
+  font-size: 20px;
+  transition: all 0.4s ease;
+}
+
+.faqs .faq .faq-question::after {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 30px;
+  transition: all 0.2s ease;
+}
+
+.faqs .faq .faq-answer {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.faqs .faq.open .faq-question {
+  margin-bottom: 15px;
+}
+
+.faqs .faq.open .faq-question::after {
+  content: "-";
+}
+
+.faqs .faq.open .faq-answer {
+  max-height: 50px;
+  opacity: 1;
+}
