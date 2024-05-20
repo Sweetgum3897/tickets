@@ -11,7 +11,6 @@ import "../node_modules/@openzeppelin/contracts/utils/cryptography/MerkleProof.s
 contract Tickets is ERC721A, ERC721ABurnable, Ownable{
     using Strings for uint256;
 
-    //bytes32 public root = 0x65db95bce907178649fa7c289773149343c552dc70d646f84bdfccccd2436d68;
     uint256 MintPrice;
     uint256 TotalSupply;
     uint256 MaxSupply;
